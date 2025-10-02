@@ -1,0 +1,35 @@
+.container_middle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right {
+  flex: 1; /* added to align right next to left */
+}
+
+.left {
+  width: 500px;
+  background-color: #eef1f6;
+  height: 350px;
+}
+
+.container_middle_para {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: nowrap; */
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 18px;
+}
